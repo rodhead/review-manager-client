@@ -1,0 +1,25 @@
+server:
+  port: 9393
+
+sapring:
+  servlet:
+    multipart:
+      enable: true
+      file-size-threshold: 2kb
+      max-file-size: 200MB
+      max-request-size: 215MB
+
+app:
+  display:
+    uploadColumnNames:
+      - review
+      - reviewRating
+      - ratingMaxValue
+      - reviewDateCreated
+      - reviewSupportImage
+      - reviewUrl
+      - reviewSource
+      - reviewerName
+      - reviewerLocation
+      - reviewerEmail
+      - reviewerContactNumber

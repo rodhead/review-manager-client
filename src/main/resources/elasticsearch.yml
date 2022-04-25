@@ -1,0 +1,17 @@
+elastic:
+  index:
+    master-review:
+      column-name:
+        - id
+        - reviewId
+        - entityId
+        - review
+        - reviewRating
+        - ratingMaxValue
+        - reviewDateCreated
+        - reviewSupportImage
+        - reviewUrl
+        - reviewSource
+        - createdDate
+        - createdBy
+        - status
