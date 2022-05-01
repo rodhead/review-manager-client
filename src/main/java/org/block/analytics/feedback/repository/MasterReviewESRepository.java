@@ -1,3 +1,4 @@
+/*
 package org.block.analytics.feedback.repository;
 
 import org.block.analytics.feedback.model.MasterReviewES;
@@ -9,3 +10,4 @@ public interface MasterReviewESRepository extends ElasticsearchRepository<Master
 
     List<MasterReviewES> findByEntityId(String entityId);
 }
+*/

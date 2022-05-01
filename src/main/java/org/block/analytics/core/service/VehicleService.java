@@ -1,3 +1,4 @@
+/*
 package org.block.analytics.core.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -37,16 +38,19 @@ public class VehicleService {
     }
 
 
-   /* public List<Vehicle> search(final SearchRequestDTO dto) {
+   */
+/* public List<Vehicle> search(final SearchRequestDTO dto) {
         final SearchRequest request = SearchUtil.buildSearchRequest(
                 Indices.VEHICLE_INDEX,
                 dto
         );
 
         return searchInternal(request);
-    }*/
+    }*//*
 
-    /*public List<Vehicle> getAllVehiclesCreatedSince(final Date date) {
+
+    */
+/*public List<Vehicle> getAllVehiclesCreatedSince(final Date date) {
         final SearchRequest request = SearchUtil.buildSearchRequest(
                 Indices.VEHICLE_INDEX,
                 "created",
@@ -54,9 +58,11 @@ public class VehicleService {
         );
 
         return searchInternal(request);
-    }*/
+    }*//*
 
-   /* public List<Vehicle> searchCreatedSince(final SearchRequestDTO dto, final Date date) {
+
+   */
+/* public List<Vehicle> searchCreatedSince(final SearchRequestDTO dto, final Date date) {
         final SearchRequest request = SearchUtil.buildSearchRequest(
                 Indices.VEHICLE_INDEX,
                 dto,
@@ -64,7 +70,8 @@ public class VehicleService {
         );
 
         return searchInternal(request);
-    }*/
+    }*//*
+
 
     private List<Vehicle> searchInternal(final SearchRequest request) {
         if (request == null) {
@@ -124,4 +131,4 @@ public class VehicleService {
             return null;
         }
     }
-}
+}*/

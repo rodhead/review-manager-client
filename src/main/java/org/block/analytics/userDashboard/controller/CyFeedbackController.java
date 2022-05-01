@@ -18,6 +18,7 @@ public class CyFeedbackController {
         return "ping successful";
     }
 
+
     @GetMapping(value = "cy-feedback")
     public String getCyFeedback() throws JSONException {
         JSONObject jsonObject = new JSONObject();

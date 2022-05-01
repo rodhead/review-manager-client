@@ -1,3 +1,4 @@
+/*
 package org.block.analytics.core.service;
 
 import org.block.analytics.core.constant.Indices;
@@ -54,3 +55,4 @@ public class IndexService {
         }
     }
 }
+*/

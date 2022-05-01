@@ -1,3 +1,4 @@
+/*
 package org.block.analytics.core.configuration;
 
 import org.elasticsearch.client.RestHighLevelClient;
@@ -27,4 +28,4 @@ public class ElasticsearchClientConfig extends
 
   return RestClients.create(clientConfiguration).rest();
   }
-}
+}*/
